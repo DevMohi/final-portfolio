@@ -43,7 +43,7 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and lets talk.
                 </p>
               </div>
               <div>
@@ -51,13 +51,13 @@ const Contact = () => {
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/clint-briley-50056920a/'
-                    target='_blank'
+                    target='_blank' rel="noreferrer"
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href='https://github.com/fireclint' target='_blank'>
+                  <a href='https://github.com/fireclint' target='_blank' rel="noreferrer" >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
@@ -81,7 +81,7 @@ const Contact = () => {
             <div className='p-4'>
               <form
                 onSubmit={handleSubmit}
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/f24a6170-57f6-4a66-93e0-6b48d4d469f4'
                 method='POST'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
